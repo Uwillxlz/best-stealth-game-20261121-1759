@@ -1,5 +1,11 @@
 # LUMEN HEIST
 
+[![make.fun](https://make.fun/badge/best-stealth-game-20261121-1759.svg)](https://make.fun/c/best-stealth-game-20261121-1759)
+[![rank](https://make.fun/badge/best-stealth-game-20261121-1759/uwillxlz/best-stealth-game-20261121-1759/rank.svg)](https://make.fun/c/best-stealth-game-20261121-1759)
+[![reward](https://make.fun/badge/best-stealth-game-20261121-1759/uwillxlz/best-stealth-game-20261121-1759/reward.svg)](https://make.fun/c/best-stealth-game-20261121-1759)
+
+An entry for [best-stealth-game-20261121-1759](https://make.fun/c/best-stealth-game-20261121-1759) ("Make the best stealth game").
+
 A top-down stealth game for the make.fun **best-stealth-game-20261121-1759** bounty.
 You are a thief in a night museum: slip past the wardens' lantern cones, pocket
 the relics, and reach the green exit unseen — across three galleries.
