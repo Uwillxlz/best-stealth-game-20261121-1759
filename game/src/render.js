@@ -373,7 +373,7 @@ export function createRenderer(canvas) {
     drawHud(state, screen, bestMs);
     if (screen === SCREEN_TITLE) {
       drawOverlay('LUMEN HEIST', [
-        'A quiet museum. Three relics. One green door.',
+        'Pocket the relics. One green door.',
         'Slip past the wardens — their lantern cones see everything lit.',
         'Crates, hedges and cases block sight. Shadow tiles hide you.',
         'Sprint is fast and loud. Getting caught ends the run.',
@@ -395,7 +395,7 @@ export function createRenderer(canvas) {
     } else if (screen === SCREEN_WIN) {
       drawOverlay('CLEAN GETAWAY', [
         `All three galleries cleared in ${formatTime(state.totalTime)}.`,
-        `Relics ◆ ${state.totalRelics}/9  ·  Score ${state.score}`,
+        `Relics ◆ ${state.totalRelics}/${state.totalRelicsAll}  ·  Score ${state.score}`,
         bestMs ? `Best getaway: ${formatTime(bestMs / 1000)}` : '',
         'Press Enter to steal again.',
       ], PALETTE.exitGlow);

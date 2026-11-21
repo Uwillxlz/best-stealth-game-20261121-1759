@@ -22,6 +22,13 @@ export const EVENT_CAUGHT = 4;
 export const EVENT_LEVEL_DONE = 8;
 export const EVENT_WIN = 16;
 
+/** Total relics across all levels, counted from the maps — the win screen
+ * reads this, never a hardcoded number (the maps hold 2 + 3 + 3 = 8). */
+export const TOTAL_RELICS_ALL = LEVELS.reduce(
+  (n, def) => n + parseLevel(def).relics.length,
+  0,
+);
+
 export function createWorld(seed) {
   const random = createRandom(seed);
   const state = {
@@ -38,6 +45,7 @@ export function createWorld(seed) {
     relicsTaken: 0,
     relicsTotal: 0,
     totalRelics: 0,
+    totalRelicsAll: TOTAL_RELICS_ALL,
     score: 0,
     alarm: false,
     alarmTime: 0,
